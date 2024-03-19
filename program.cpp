@@ -1,9 +1,11 @@
 #include<stdio.h>
-
-using namespace std; 
-
 int main()
 {
-  printf("hello world");
-  return 0;
+    for(int i = 10 ; i < 100 ; i ++)
+    {
+        if(i%7==0)
+        {
+            printf("\t%d",i);
+        }
+    }
 }
